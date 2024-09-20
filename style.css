@@ -1,0 +1,87 @@
+.nav-container{
+    background: linear-gradient(300deg, #c7c226, #f96363, #efef72);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    border-radius: 0%;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+body {
+    background-color:white;
+    /* hwb(0 39% 56% / 0.721);
+    /*#83c9fb*/
+    /*  hsl(16, 95%, 75%);*/
+}
+
+.Container{
+    background-color: white;
+    margin :2%;
+    border:6px solid #1f1f1fdf ;
+    padding: 0%;
+    border-radius: 1%;
+}
+
+.card{
+    padding:5%;
+    margin:7%;
+    justify-content:space-between ;
+    align-items:center ;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+}
+/*About Page*/
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.img-fluid{
+  height: 400px;
+  width: 400px;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+#about{
+  display: block;
+}
+
+.download{
+  display: block;
+  height: 400px;
+  width: 400px;
+  padding:0%;
+}
+@media (max-width: 500px) {
+
+  /* CSS for screens below or equal to 600px wide */
+  .download {
+    width: 300px;
+  }
+}
